@@ -28,4 +28,8 @@ export class LoginPage {
     this.navCtrl.setRoot('RegisterPage');
   }
 
+  loginCodMesa() {
+    this.navCtrl.setRoot('LoginCodMesaPage');
+  }
+
 }

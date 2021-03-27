@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Login Mesa</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-image">
+
+  <img src="assets/imgs/qr-code.png" alt="logo" class="qrCodeImage">
+
+  <button ion-button class="buttonEscanQrcode" margin-top="100px" (click)="scanQrCode()">Escanear QR Code</button>
+
+  <ion-item>
+    <ion-input color danger class="inputCodMesa" placeholder="Digite o código da mesa"></ion-input>
+  </ion-item>
+
+  <button ion-button class="buttonApp">Log in</button>
+
+</ion-content>

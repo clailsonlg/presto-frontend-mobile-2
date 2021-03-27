@@ -1,0 +1,39 @@
+page-login-cod-mesa {
+  .bg-image {
+      background-image: url('../../assets/imgs/presto-background.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+}
+
+.qrCodeImage {
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.buttonEscanQrcode {
+  margin-bottom: 5%;
+  border-radius: 10px;
+  background: #c1272d;
+  margin-left: 12.5%;
+  width: 75%;
+}
+
+.inputCodMesa {
+  margin-left: 12.5%;
+  width: 75%;
+}
+
+.buttonApp {
+  margin-top: 5%;
+  border-radius: 10px;
+  background: #c1272d;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.icon {
+  margin-left: 10%;
+}

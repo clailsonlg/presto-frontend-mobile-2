@@ -1,0 +1,33 @@
+page-login-qrcode {
+  .bg-image {
+    background-image: url('../../assets/imgs/presto-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.titleLoginQrcode {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #DD6367;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.qrCodeImage {
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.titleLoginQrcode2 {
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #c1272d;
+  padding: 2%;
+  border-radius: 10px;
+}
