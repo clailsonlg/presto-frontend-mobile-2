@@ -12,4 +12,16 @@ export class HomePage {
 
   }
 
+  profile() {
+    this.navCtrl.setRoot('ProfilePage');
+  }
+
+  startService() {
+    this.navCtrl.setRoot('MenuTypesPage');
+  }
+
+  requests() {
+    this.navCtrl.setRoot('RequestsPage');
+  }
+
 }

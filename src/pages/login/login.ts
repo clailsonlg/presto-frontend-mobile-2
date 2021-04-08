@@ -32,4 +32,8 @@ export class LoginPage {
     this.navCtrl.setRoot('LoginCodMesaPage');
   }
 
+  changePassword() {
+    this.navCtrl.setRoot('ChangePasswordPage');
+  }
+
 }
