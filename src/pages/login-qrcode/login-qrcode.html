@@ -11,7 +11,18 @@
 
   <ion-label stacked class="titleLoginQrcode">Escaneie o QR-Code da mesa</ion-label>
 
-  <img src="assets/imgs/qr-code.png" alt="logo" class="qrCodeImage">
+  <div>
+		<ion-input style="background-color: grey" type="text" [(ngModel)]="encodText"></ion-input>
+		<button ion-button block (click)="encode()"> Encode</button>
+	</div>
+	<div>
+		<button ion-button block (click)="scan()"> Scan</button>
+		<div *ngIf="scannedData.text">
+			<label>Your barcode is</label>
+			<br>
+			<span>{{scannedData.text}}</span>
+		</div>
+	</div>
 
   <ion-label stacked class="titleLoginQrcode2">Escaneie o QR-Code da mesa</ion-label>
 
